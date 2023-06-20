@@ -5,6 +5,9 @@ from nets.vgg import VGG16
 
 
 class block(nn.Module):
+    """
+    base block for upsampling
+    """
     def __init__(self, in_size, out_size):
         super(block, self).__init__()
         self.conv1  = nn.Conv2d(in_size, out_size, kernel_size = 3, padding = 1)
