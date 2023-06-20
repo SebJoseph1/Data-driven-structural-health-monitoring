@@ -27,7 +27,7 @@ class block(nn.Module):
 class Model(nn.Module):
     def __init__(self, num_classes=2, pretrained=True):
         super(Model, self).__init__()
-        self.vgg = VGG16(pretrained=pretrained)
+        self.vgg = VGG16(pretrained=pretrained)  # initialize the VGG net using pretrained parameters
         in_filters = [192, 384, 768, 1024]
         out_filters = [64, 128, 256, 512]
 
