@@ -15,9 +15,11 @@ https://tuenl-my.sharepoint.com/:u:/g/personal/v_j_a_houben_student_tue_nl/EQl_N
 
 ## Running the GUI
 The required libraries can be installed by
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 The GUI can be executed by 
-```python ui/application.py
+```
+python ui/application.py
 ```
