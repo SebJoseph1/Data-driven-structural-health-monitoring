@@ -72,7 +72,6 @@ def run_model():
         new_image.save(new_filepath, "PNG")
         # Performing prediction
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        print(device)
         unet.model.to(device)
         img_tf = img_tf.to(device)
         out = unet.predict(img_tf)
