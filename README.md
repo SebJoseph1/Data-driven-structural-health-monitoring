@@ -12,3 +12,12 @@ Addressing these issues, this paper presents a efficient and reliable system usi
 ## Weights
 The file containing the weights of the model is too large to upload directly, but can be accessed with the following link:
 https://tuenl-my.sharepoint.com/:u:/g/personal/v_j_a_houben_student_tue_nl/EQl_NUorPk9Ji6I1qW5uZRIBLRyC_9unDsUF40tiQi7Mhw?e=q4Vpfb
+
+## Running the GUI
+The required libraries can be installed by
+```pip install -r requirements.txt
+```
+
+The GUI can be executed by 
+```python ui/application.py
+```
