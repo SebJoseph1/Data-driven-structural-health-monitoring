@@ -3,6 +3,10 @@ import torch
 
 
 class VGG(nn.Module):
+    """
+    the definition of VGG architecture. It was used to extract low level feature of the inpur image.
+    We use pretrained parameters to initialize
+    """
     def __init__(self, features, num_classes=1000):
         super(VGG, self).__init__()
         self.features = features
