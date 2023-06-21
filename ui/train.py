@@ -1,3 +1,6 @@
+"""
+https://github.com/bubbliiiing/unet-pytorch/tree/main
+"""
 import os
 import datetime
 
@@ -16,6 +19,7 @@ from utils.utils import download_weights, show_config
 from utils.utils_fit import fit_one_epoch
 
 if __name__ == "__main__":
+    
     Cuda = False
     distributed = False
     sync_bn = False
@@ -47,6 +51,7 @@ if __name__ == "__main__":
     cls_weights = np.array([1.0, 100.0], np.float32)
     num_workers = 4
     ngpus_per_node = torch.cuda.device_count()
+
     if distributed:
         dist.init_process_group(backend="nccl")
         local_rank = int(os.environ["LOCAL_RANK"])
