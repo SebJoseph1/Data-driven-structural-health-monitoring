@@ -23,3 +23,18 @@ The GUI can be executed by
 ```
 python ui/application.py
 ```
+
+## Screenshot
+
+![9](https://github.com/a-brugnera-tue/5ARIP0/assets/119045498/7628e416-6eb3-4815-9c49-ccb249670206)
+
+## Steps
+```
+Select the image folder by clicking the "Select Folder" button
+Enter the number of cycles
+Check the aruco checkmark if aruco is present
+Change the paramters if needed
+Click on "Run" button to perform the operation
+After operation is done for all images the "Save" button will become enabled
+Click on "Save" button to save graph and table in the "Output" folder
+```
